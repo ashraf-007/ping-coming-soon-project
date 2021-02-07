@@ -95,19 +95,23 @@ a {
 i {
   color: hsl(223, 87%, 63%);
   background-color: white;
-  height: 35px;
-  width: 35px;
+  height: 32px;
+  width: 32px;
  border-radius: 50%;
  border: 1px solid hsl(223, 87%, 63%) ;
- padding: 8px;
- box-shadow: 0 3px 25px -12px black;
+ padding: 7px;
+ transition: all 0.3s ease;
+
  
 }
+
 
 i:hover {
   color: white;
   border-radius: 50%;
- background-color: blue;
+ background-color: hsl(223, 87%, 63%);
+ transition: all 0.3s ease;
+
   
 }
 
@@ -117,8 +121,9 @@ i:hover {
 }
 
 .copyright {
+  font-size: 13px;
   margin-top: 20px;
-  color: hsl(209, 33%, 12%);
+  color: hsl(223, 87%, 63%);
 }
 
 footer {
