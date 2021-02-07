@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  text-align: center;
+  max-width: 1445px;
+}
+
+
+h1 {
+  font-size: 40px;
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: hsl(209, 33%, 12%);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+span {
+  font-weight: 600;
+  color: black;
+}
+
+.logo {
+  padding-top: 10px;
+  margin: 45px 0 35px 0;
+}
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.input {
+  height: 45px;
+  width: 350px;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 40px;
+  padding: 2% 3%;
+  outline: none;
+  font-size: 13px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.button {
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  height: 45px;
+  width: 150px;
+  font-weight: 700;
+  box-shadow: 0 8px 20px -12px hsl(223, 87%, 63%);
+  border-style: none;
+  border-radius: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+/*********** Section 2**************/
+
+.img {
+  margin-top: 50px;
+  width: 50%;
+}
+
+.paragraph {
+  font-size: 12px;
+  color: hsl(354, 100%, 66%);
+  font-style: italic;
+}
+
+a {
+  margin: 20px 10px;
+}
+
+i {
+  color: hsl(209, 33%, 12%);
+}
+
+i:hover {
+  color: hsl(354, 100%, 66%);
+}
+
+.social {
+
+  justify-content: space-around;
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 20px;
+  color: hsl(209, 33%, 12%);
+}
+
+footer {
+  margin-top: 90px;
+  margin-bottom: 40px;
+}
+
+@media (max-width:1120px) {
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    width: 350px;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+  .input-container{
+    align-items: center;
+  }
+  .paragraph{
+    margin-top: 10px;
+  }
+}
+
+ @media ( max-width:778px){
+ .img{
+   width: 370px;
+ }
+} 
